@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring_wss
+  # datasource:
+  #   driver-class-name: oracle.jdbc.driver.OracleDriver
+  #   url: jdbc:oracle:thin:@localhost:1521:orcl
+  #   username: system
+  #   password: Jobs@666
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.Oracle10gDialect
+      ddl-auto: update
+      show-sql: true
